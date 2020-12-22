@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/meishi.css"/>
+	</head>
+	<body>
+		<div class="a1">
+			<div class="a2">
+				<ul>
+					<li>
+						<a href="index.html">
+						<img src="img/jianzuo.png"/>
+						</a>
+					</li>
+					<li><strong>美食购物车</strong></li>
+					<li style="margin-right: 40px; font-size: 1.4rem;">编辑</li>
+				</ul>
+			</div>
+			<div class="a3">
+				<p><input type="checkbox"/>   白果园</p>
+				<div class="a4">
+					<div class="a5">
+						<input type="checkbox"/> 
+					</div>
+					<div class="a6">
+						<img src="img/IMG_4629_03.png"/>
+					</div>
+					<div class="a7">
+						<ul>
+							<li><strong style="font-size: 1.5rem;">百果园PAGODA【1KG】...</strong></li>
+							<li style="font-size: 1.2rem; color: slategray;">【1KG】A级-三红蜜柚（中）超重...</li>
+							<li style="font-size: 1.2rem; color: slategray;">周一至周日，免预约</li>
+							<li>
+							    <span style="color: orangered;">
+							               ￥<span style="color: orangered;" id='danjia'>8.9</span>
+							    </span>
+							    <span style="color: slategray; font-size: 1rem;">￥<s style="font-size: 1rem;">19.9</s></span>
+							    <span style="background: pink; border-radius: 50px; 
+							    	font-size: 1rem; padding: 10px 10px 10px 10px;
+							    	color: orangered;">4.47折</span>
+							    <span style="float: right; height: 40px; border: 1px solid silver; border-radius: 50px; padding: 10px 10px 30px 10px;">
+							    	<button style="width: 50px; border: 0; height: 40px;color: orangered; line-height: 40px;" onclick="jian()">-</button>
+							    	<span id="b5">1</span>
+							    	<button style="width: 50px; border: 0; height: 40px;color: orangered;" onclick="jia()">+</button>
+							    </span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="a4">
+					<div class="a5">
+						<input type="checkbox"/> 
+					</div>
+					<div class="a6">
+						<img src="img/IMG_4629_06.png"/>
+					</div>
+					<div class="a7">
+						<ul>
+							<li><strong style="font-size: 1.5rem;">百果园PAGODA【500g】...</strong></li>
+							<li style="font-size: 1.2rem; color: slategray;">【500g】A级-克瑞森无核珍珠红【...</li>
+							<li style="font-size: 1.2rem; color: slategray;">周一至周日，免预约</li>
+							<li>
+							    <span style="color: orangered;">
+							    ￥<span style="color: orangered;" id='danjia1'>8.9</span>
+							    </span>
+							    <span style="color: slategray; font-size: 1rem;">￥<s style="font-size: 1rem;">32.9</s></span>
+							    <span style="background: pink; border-radius: 50px; 
+							    	font-size: 1rem; padding: 10px 10px 10px 10px;
+							    	color: orangered;">4.83折</span>
+							    <span style="float: right; height: 40px; border: 1px solid silver; border-radius: 50px; padding: 10px 10px 30px 10px;">
+							    	<button style="width: 50px; border: 0; height: 40px;color: orangered; line-height: 20px;" onclick="jian1()">-</button>
+							    	<span id="b51">1</span>
+							    	<button style="width: 50px; border: 0; height: 40px;color: orangered;" onclick="jia1()">+</button>
+							    </span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="a8">
+				<div class="a4">
+					<div class="a5">
+						<input type="checkbox"/> 
+					</div>
+					<div class="a6">
+						<img src="img/IMG_4629_08.png"/>
+					</div>
+					<div class="a7">
+						<ul>
+							<li><strong style="font-size: 1.5rem;">大山果业脆冬枣</strong></li>
+							<li style="font-size: 1.2rem; color: slategray;">脆冬枣，服务流程/时长：咨询商家</li>
+							<li style="font-size: 1.2rem; color: slategray;">周一至周日，免预约</li>
+							<li>
+							    <span style="color: orangered;">
+							                ￥<span style="color: orangered;" id='danjia2'>8.9</span>
+							    </span>
+							    <span style="color: slategray; font-size: 1rem;">￥<s style="font-size: 1rem;">16.8</s></span>
+							    <span style="background: pink; border-radius: 50px; 
+							    	font-size: 1rem; padding: 10px 10px 10px 10px;
+							    	color: orangered;">8.21折</span>
+							    <span style="float: right; height: 40px; border: 1px solid silver; border-radius: 50px; padding: 10px 10px 30px 10px;">
+							    	<button style="width: 50px; border: 0; height: 40px;color: orangered; line-height: 20px;" onclick="jian2()">-</button>
+							    	<span id="b52">1</span>
+							    	<button style="width: 50px; border: 0; height: 40px;color: orangered;" onclick="jia2()">+</button>
+							    </span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="a9">
+				<div class="b1">
+					<span class="b4"><input type="checkbox"/> </span>
+					<span style="font-size: 1.3rem;">全选</span>
+				</div>
+				<div class="b2">
+					<ul style="display: flex;">
+						<li>合计<span style="color: orangered;" id='zongjia'>8.9</span></li>
+						<li class="b3">结算(2)</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="js/jquery-1.12.4.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function(){
+				$(".b4").click(function(){
+					$("input").prop("checked",true)
+				})
+				
+			})
+		
+       var a=document.getElementById('danjia')
+		var a=document.getElementById('zongjia');
+		function jia(){
+			var b5=document.getElementById('b5');
+			b5.innerHTML=parseInt(b5.innerHTML)+1;
+			document.getElementById('zongjia').innerHTML=parseInt(danjia.innerHTML)*b5.innerHTML;
+		}
+		function jian(){
+			var b5=document.getElementById('b5');
+			if(b5.innerHTML==1){
+				alert('不能再减了');
+			}else{
+				b5.innerHTML=parseInt(b5.innerHTML)-1;
+				document.getElementById('zongjia').innerHTML=parseInt(danjia.innerHTML)*b5.innerHTML;
+			}
+		}
+		function jia1(){
+			var b51=document.getElementById('b51');
+			b51.innerHTML=parseInt(b51.innerHTML)+1;
+		}
+		function jian1(){
+			var b51=document.getElementById('b51');
+			if(b51.innerHTML==1){
+				alert('不能再减了');
+			}else{
+				b51.innerHTML=parseInt(b51.innerHTML)-1;
+			}
+		}
+		function jia2(){
+			var b52=document.getElementById('b52');
+			b52.innerHTML=parseInt(b52.innerHTML)+1;
+		}
+		function jian2(){
+			var b52=document.getElementById('b52');
+			if(b52.innerHTML==1){
+				alert('不能再减了');
+			}else{
+				b52.innerHTML=parseInt(b52.innerHTML)-1;
+			}
+		}
+	</script>
+</html>
